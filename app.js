@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(3001, () => {
-  console.log("Se prendió");
+  console.log("Se prendió puerto 3001");
 });
 
 app.get("/", (req, res) => {
